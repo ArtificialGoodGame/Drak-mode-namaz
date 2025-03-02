@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times Widget</title>
+    <style>
+        body {
+            background-color: #121212; /* Dark background */
+            color: white; /* White text */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        iframe {
+            filter: invert(1) hue-rotate(180deg); /* Force dark mode */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe id="iframe" title="prayerWidget" class="widget-m-top"
+        style="height: 400px; width: 100%; border-radius: 10px;"
+        scrolling="no"
+        src="https://www.islamicfinder.org/prayer-widget/2467454/shafi/12/0/18.0/18.0">
+    </iframe>
+</body>
+</html>
